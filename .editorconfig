@@ -1,0 +1,41 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*{.yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[.{html,txt,md}]
+indent_style = space
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.sh]
+end_of_line = lf
+indent_style = space
+indent_size = 4
+
+[.gitmodules]
+# To agree with git submodule generated lines.
+indent_style = tab
+indent_size = 4
+
+[**/node_modules/**]
+indent_style = ignore
+indent_size = ignore
