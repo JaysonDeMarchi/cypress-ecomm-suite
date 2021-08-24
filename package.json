@@ -1,0 +1,13 @@
+{
+  "name": "cypress-playground",
+  "version": "1.0.0",
+  "description": "Test Cypress Automation",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "open": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^8.2.0"
+  }
+}
