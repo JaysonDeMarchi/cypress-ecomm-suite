@@ -1,6 +1,3 @@
 {
-  "env": {
-    "baseUrl": "magento.test",
-    "protocol": "http://"
-  }
+  "baseUrl": "https://magento.test"
 }
