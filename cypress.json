@@ -1,0 +1,43 @@
+{
+  "areas": {
+    "admin": {
+      "name": "Admin",
+      "path": "/admin"
+    },
+    "cart" : {
+      "name": "Cart",
+      "path": "/checkout/cart"
+    },
+    "checkout" : {
+      "name": "Checkout",
+      "path": "/checkout"
+    },
+    "footer" : {
+      "name": "Footer",
+      "path": "/"
+    },
+    "header" : {
+      "name": "Header",
+      "path": "/"
+    },
+    "home" : {
+      "name": "Home",
+      "path": "/"
+    },
+    "minicart" : {
+      "name": "Minicart",
+      "path": "/"
+    },
+    "pdp" : {
+      "name": "Product Details Page",
+      "path": "/"
+    },
+    "plp" : {
+      "name": "Product Landing Page",
+      "path": "/"
+    }
+  },
+  "testFiles": [
+    "**/index.*"
+  ]
+}
