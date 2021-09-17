@@ -1,4 +1,4 @@
-export default (testSuite) => {
+export const runTestSuite = (testSuite) => {
   const area = Cypress.config('areas')[testSuite.area];
 
   describe(area.name, () => {
