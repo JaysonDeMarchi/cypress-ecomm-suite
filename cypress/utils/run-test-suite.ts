@@ -13,6 +13,12 @@ export const runTestSuite = (testSuite) => {
     });
 
     testSuite.tests.forEach(test => {
+      before(() => {
+        if (test.before) {
+          test.before(fixture);
+        }
+      });
+
       it(test.name, () => {
         test.run(fixture);
       });
