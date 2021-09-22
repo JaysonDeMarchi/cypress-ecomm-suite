@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "cypress": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
   }
 }
