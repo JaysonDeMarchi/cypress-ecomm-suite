@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://beta8.riteaid.com/shop",
+  "areas": {
+    "admin": {
+      "path": "/raadmin"
+    }
+  }
+}
