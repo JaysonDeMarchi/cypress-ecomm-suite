@@ -42,5 +42,7 @@
   },
   "testFiles": [
     "**/index.*"
-  ]
+  ],
+  "viewportWidth": 1280,
+  "viewportHeight": 720
 }
