@@ -41,7 +41,7 @@
     "path": "/graphql"
   },
   "testFiles": [
-    "**/index.*"
+    "**/*.feature{,s}"
   ],
   "viewportWidth": 1280,
   "viewportHeight": 720
