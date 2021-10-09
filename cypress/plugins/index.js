@@ -5,7 +5,9 @@ const path = require('path');
 const resolve = require('resolve');
 
 module.exports = (on, config) => {
-  const configFile = config.env.configFile || 'config/local.json';
+  const envName = config.env.name || 'local';
+  const configFile = `config/${envName}.json`;
+
   const options = {
     ...browserify.defaultOptions,
     typescript: resolve.sync('typescript', { baseDir: config.projectRoot }),

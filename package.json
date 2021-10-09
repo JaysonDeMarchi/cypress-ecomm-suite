@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "open": "cypress open",
-    "open:local": "cypress open --env 'configFile=config/local.json'",
-    "open:beta8": "cypress open --env 'configFile=config/beta8.json'"
+    "open:local": "cypress open --env 'name=local'",
+    "open:beta8": "cypress open --env 'name=beta8'"
   },
   "dependencies": {
     "cypress": "^8.2.0"
