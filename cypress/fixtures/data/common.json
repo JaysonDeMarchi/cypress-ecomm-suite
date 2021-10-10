@@ -1,0 +1,30 @@
+{
+  "admin": {
+    "path": "/raadmin"
+  },
+  "checkout": {
+    "path": "/checkout",
+    "shipping_address": {
+      "firstname": "Jayson",
+      "lastname": "DeMarchi",
+      "street_0": "58 West 40th St.",
+      "street_1": "7th Floor",
+      "city": "New York",
+      "region": "New York",
+      "postcode": "10018",
+      "country": "United States of America",
+      "email": "jaysondemarchi@rightpoint.com",
+      "phone_number": "3332223232"
+    },
+    "credit_card": {
+      "number": "4111111111111111",
+      "exp_month": "10",
+      "exp_year": "2023",
+      "cvv": "321"
+    }
+  },
+  "pdp": {
+    "add_to_cart_success": "You added",
+    "path": "/flintstones-multivitamin-supplement-children-s-complete-sour-gummies-180-gummies-0349519"
+  }
+}
