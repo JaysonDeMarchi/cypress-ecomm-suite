@@ -1,8 +1,12 @@
 import { When } from "cypress-cucumber-preprocessor/steps";
+import { data, selectors } from '../../fixture-map';
 
-const shippingAddressData = {};
-const shippingAddressSelectors = {}
+const checkoutData = data['checkout'];
+const checkoutActions = selectors['action']['checkout'];
+const checkoutInfo = selectors['info']['checkout'];
 
 When(/I proceed to the payment step/, () => {
-  cy.get(shippingAddressSelectors.action.shipping_continue).click();
+  cy.wait(3000);
+  cy.get(checkoutActions['shipping_continue']).click();
+  cy.get(checkoutInfo['payment_details_title'], { timeout: 9000 }).should('be.visible').contains(checkoutData['payment_details_title']);
 });

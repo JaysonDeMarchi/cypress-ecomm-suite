@@ -1,9 +1,12 @@
 import { Given } from "cypress-cucumber-preprocessor/steps";
+import { data, selectors } from '../../fixture-map';
 
 Given(/I have a product in my cart/, () => {
-  cy.fixture('pdp').then((pdpData) => {
-    cy.visit(pdpData.fixture.path);
-  });
-  cy.get('#product-addtocart-button').click();
-  cy.get('.message-success', { timeout: 5000 }).contains('You added');
+  cy.visit(data['pdp']['path']);
+  cy.get(selectors['action']['pdp']['add_to_cart']).click();
+
+  cy.get(
+    selectors['info']['pdp']['add_to_cart_success'],
+    { timeout: 5000 }
+  ).contains(data['pdp']['add_to_cart_success']);
 });

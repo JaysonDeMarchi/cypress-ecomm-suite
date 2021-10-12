@@ -22,7 +22,7 @@
         "postcode": "input[name=postcode]",
         "country": "[name=country_id]",
         "email": "[name=shipping-email]",
-        "phone_number": "[name=telephone]"
+        "telephone": "[name=telephone]"
       },
       "credit_card": {
         "number": "input[id=authnetcim-cc-number]",
@@ -33,6 +33,13 @@
     }
   },
   "info": {
+    "checkout": {
+      "shipping_method_loader": ".checkout-shipping-method .loader",
+      "payment_details_title": "[data-bind=\"i18n: 'Payment Details'\"]"
+    },
+    "checkout_success": {
+      "success_message": "div[class=checkout-success]"
+    },
     "pdp": {
       "add_to_cart_success": ".message-success"
     }
