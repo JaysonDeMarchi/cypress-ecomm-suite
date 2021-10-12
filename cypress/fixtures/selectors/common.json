@@ -2,6 +2,7 @@
   "action": {
     "checkout": {
       "enter_manual_address": ".enter-manual-address",
+      "fsa_hsa_new_card": "#fsa-hsa-card",
       "shipping_continue": "[data-role=opc-continue]",
       "payment_continue": "[id=authnetcim-continue]",
       "place_order": "[id=authnetcim-submit]"
@@ -34,6 +35,7 @@
   },
   "info": {
     "checkout": {
+      "kidcents_sub_total": ".total.sub.kidcents .price",
       "shipping_method_loader": ".checkout-shipping-method .loader",
       "payment_details_title": "[data-bind=\"i18n: 'Payment Details'\"]"
     },
