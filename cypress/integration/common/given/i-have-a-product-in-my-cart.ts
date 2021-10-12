@@ -3,6 +3,7 @@ import { data, selectors } from '../../fixture-map';
 
 Given(/I have a product in my cart/, () => {
   cy.visit(data['pdp']['path']);
+  cy.wait(3000);
   cy.get(selectors['action']['pdp']['add_to_cart']).click();
 
   cy.get(

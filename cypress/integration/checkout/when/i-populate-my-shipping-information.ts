@@ -6,6 +6,7 @@ const shippingAddressData = data['checkout']['shipping_address'];
 const shippingAddressFields = selectors['field']['checkout']['shipping_address'];
 
 When(/I populated my shipping information/, () => {
+  cy.wait(3000);
   cy.get(shippingAddressFields['firstname'], { timeout: 6000 }).type(shippingAddressData['firstname']);
   cy.get(shippingAddressFields['lastname'], { timeout: 6000 }).type(shippingAddressData['lastname']);
   cy.get(shippingAddressFields['street_0'], { timeout: 6000 }).type(shippingAddressData['street_0']);
