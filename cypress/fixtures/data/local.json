@@ -1,2 +1,6 @@
 {
+  "login": {
+    "path": "/sso?returnTo=/customer/account/index/",
+    "service_token": "TGT-1525-S4sqspxCppX14a9UGR4vWeswXT6QOTxmv2bQIUFqU5TKhHqKHF-itccrmuat03"
+  }
 }
