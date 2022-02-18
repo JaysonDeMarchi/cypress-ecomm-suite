@@ -4,6 +4,8 @@ import * as beta8Data from '../fixtures/data/beta8';
 import * as beta8Selectors from '../fixtures/selectors/beta8';
 import * as localData from '../fixtures/data/local';
 import * as localSelectors from '../fixtures/selectors/local';
+import * as sqat8Data from '../fixtures/data/sqat8';
+import * as sqat8Selectors from '../fixtures/selectors/sqat8';
 
 const environments = {
   'beta8': {
@@ -13,6 +15,10 @@ const environments = {
   'local': {
     'data': localData,
     'selectors': localSelectors,
+  },
+  'sqat8': {
+    'data': sqat8Data,
+    'selectors': sqat8Selectors,
   },
 };
 

@@ -7,7 +7,8 @@
   "scripts": {
     "open": "cypress open",
     "open:local": "cypress open --env 'name=local'",
-    "open:beta8": "cypress open --env 'name=beta8'"
+    "open:beta8": "cypress open --env 'name=beta8'",
+    "open:sqat8": "cypress open --env 'name=sqat8'"
   },
   "dependencies": {
     "cypress": "^8.2.0"

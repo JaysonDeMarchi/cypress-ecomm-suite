@@ -1,0 +1,9 @@
+{
+  "name": "sqat8",
+  "baseUrl": "https://sqat8.riteaid.com/shop",
+  "areas": {
+    "admin": {
+      "path": "/raadmin"
+    }
+  }
+}
